@@ -10,11 +10,8 @@ Un blog para el curso de [Git y Github](https://platzi.com/clases/git-github/ "G
 * El flujo de trabajo en GitHub
 * Buenas prácticas
 * Personalidades múltiples de Freddy
-<<<<<<< HEAD
-=======
 * Apenas modificado
 * Con mejoras en Git y GitHub
->>>>>>> aa9a797... 2da modificacion
 
 **NUNCA PARES DE APRENDER**
 [CURSO PROFESIONAL DE GIT Y GITHUB](https://platzi.com/clases/git-github/ "CURSO PROFESIONAL DE GIT Y GITHUB")
