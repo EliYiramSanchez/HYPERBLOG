@@ -1,0 +1,398 @@
+    1  ls
+    2  cd
+    3  pwd
+    4  pwd
+    5  cd proyecto1
+    6  pwd
+    7  git init
+    8  pwd
+    9  ls -al
+   10  code
+   11  git status
+   12  git add historia.txt
+   13  git status
+   14  git rm historia.txt
+   15  git status
+   16  git rm --cached historia.txt
+   17  git status
+   18  git add historia.txt
+   19  git sstatus
+   20  git status
+   21  git commit -m "primer commit del archivo"
+   22  git config
+   23  git config --list
+   24  git config --list --show-origin
+   25  git config --global user.name "Eli Sanchez"
+   26  git config --global user.email "eysc.1997@gmail.com"
+   27  git config --list
+   28  git status
+   29  git commit -m "primer commit del archivo"
+   30  code historia.txt
+   31  git status
+   32  git commit -m"cambios en la edad en el archivo"
+   33  git add .
+   34  git commit -m "cambios en el archivo sobre la edad"
+   35  git log historia.txt
+   36  git show historia.txt
+   37  git add .
+   38  git commit
+   39  git status
+   40  git add .
+   41  git commit
+   42  git show historia.txt
+   43  git log historia.txt
+   44  git giff fb3121a9dac5e5fd49c65c06b3c461f97e9a1f80 c457804ecc074657d845f96173445a5fc5fc1e01
+   45  git diff fb3121a9dac5e5fd49c65c06b3c461f97e9a1f80 
+   46  git diff fb3121a9dac5e5fd49c65c06b3c461f97e9a1f80 c457804ecc074657d845f96173445a5fc5fc1e01
+   47  git diff c457804ecc074657d845f96173445a5fc5fc1e01 fb3121a9dac5e5fd49c65c06b3c461f97e9a1f80
+   48  git log
+   49  git reset 7c3eb466e6edbce2e23e958f2e60473131726937 --hard
+   50  git log
+   51  git status
+   52  ls
+   53  ls -al
+   54  git add .
+   55  git status
+   56  git status
+   57  git diff
+   58  git add .
+   59  git status
+   60  git commit -m "arrancar mi proyecto con  html y css"
+   61  git log
+   62  git add .
+   63  git commit -m"cambio de vida"
+   64  git add .
+   65  git commit -m "cambio de obra maestra"
+   66  git log
+   67  git log --stat
+   68  git checkout c457804ecc074657d845f96173445a5fc5fc1e01 historia.txt
+   69  git status
+   70  git checkout master historia.txt
+   71  code
+   72  git status
+   73  pwd
+   74  cd proyecto1
+   75  git status
+   76  git commit -a
+   77  git log
+   78  git log --stat
+   79  git status
+   80  git show
+   81  git branch cabecera
+   82  git show
+   83  git status
+   84  git checkout cabecera
+   85  git status
+   86  git add blogpost.html
+   87  git status
+   88  git commit
+   89  git status
+   90  git show
+   91  git log
+   92  git status
+   93  git status
+   94  git commit -am "finalizada cabecera con diseño azul"
+   95  git status
+   96  git checkout master
+   97  git status
+   98  git commit -am "agregando contenido al master y tipografia courier"
+   99  git log
+  100  git status
+  101  git log
+  102  git checkout cabecera
+  103  git commit -am "commit para cambiar Hyperblog"
+  104  git status
+  105  git log
+  106  git checkout master
+  107  git status
+  108  git branch
+  109  git merge cabecera
+  110  git log
+  111  git commit -am "volvi a tipografia arial"
+  112  git checkout cabecera
+  113  git merge master
+  114  git commit -am "modifique la cabecera y color red"
+  115  git checkout master
+  116  git status
+  117  git commit -am "cambie cabecera maestra, agregue suscripcion y puse todo azul"
+  118  git status
+  119  git checkput cabecera
+  120  git checkout cabecera
+  121  git master 
+  122  git checkout master
+  123  git merge cabecera
+  124  git log
+  125  git status
+  126  git commit -am "conflicto solucionado en las ramas al hacer el merge, queda cabecera maestra y color azul"
+  127  git status
+  128  git checkout cabecera
+  129  git checkout master
+  130  it log
+  131  git log
+  132  pwd
+  133  git remote add origin 
+  134  git remote 
+  135  git remote add origin https://github.com/EliYiramSanchez/HYPERBLOG.git
+  136  git remote 
+  137  git remote -v
+  138  git push origin master
+  139  git pull origin master
+  140  git pull origin master --allow-unrelated-histories
+  141  ls -al
+  142  git status
+  143  git push origin master
+  144  git pull origin master
+  145  git log
+  146  pwd
+  147  ls
+  148  cd
+  149  pwd
+  150  git config -l
+  151  ssh-keygen -t rsa -b 4096 -C "eysc.1997@gmail.com"
+  152  eval $(ssh-agent -s)
+  153  ~
+  154  cd
+  155  pwd
+  156  cd -/proyecto1/
+  157  cd ~/proyecto1/
+  158  pwd
+  159  ~/.ssh/
+  160  ls -al
+  161  pwd
+  162  cd
+  163  pwd
+  164  cd~/.ssh/
+  165  cd ~/.ssh/
+  166  ls -al
+  167  ssh-add ~/ssh/id_rsa
+  168  ssh-add ~/.ssh/id_rsa
+  169  cd
+  170  cd proyecto1/
+  171  git remote -v
+  172  git remote set -url origin git@github.com:EliYiramSanchez/HYPERBLOG.git
+  173  git remote -v
+  174  git remote set -url origin git@github.com:EliYiramSanchez/HYPERBLOG.git
+  175  git remote set -url origin git@github.com:EliYiramSanchez/HYPERBLOG.git
+  176  git remote -v
+  177  git remote set-url origin git@github.com:EliYiramSanchez/HYPERBLOG.git
+  178  git remote -v
+  179  git status
+  180  git pull
+  181  git pull origin master
+  182  git diff
+  183  git status
+  184  git commit -am "actualización a 2.0"
+  185  git pull origin master
+  186  git push origin master
+  187  pwd
+  188  cd proyecto1
+  189  git status
+  190  ls -al
+  191  git clone $ git clone
+  192  git clone git@github.com:EliYiramSanchez/hyperblog-1.git
+  193  cd hiperblog-1
+  194  cd hyperblog-1
+  195  code blogpost.html
+  196  git status
+  197  git commit -am "Eli Yiram Sanchez Cruz"
+  198  git status
+  199  git push
+  200  cd
+  201  pwd
+  202  cd proyecto1
+  203  git status
+  204  git add .gitignore
+  205  git status
+  206  git rm --force hyperblog-1
+  207  git status
+  208  git -d hyperblog-1
+  209  git status
+  210  git rm hyperblog-1
+  211  git status
+  212  git rm --cached hyperblog-1
+  213  git add blogpost.html
+  214  git status
+  215  git commit -am "agregue imagen al blog"
+  216  git status
+  217  git pull origin master
+  218  git push origin master
+  219  git status
+  220  git rm hyperlog-1
+  221  git rm hyperblog-1
+  222  git rm hyperblo-1/
+  223  git rm --cached hyperblog-1/
+  224  PWD
+  225  cd proyecyo1
+  226  cd proyecto1
+  227  git status
+  228  gitk
+  229  git status
+  230  git commit -am "README.MD complementado"
+  231  git status
+  232  git pull origin master
+  233  git push origin master
+  234  cd
+  235  pwd
+  236  -al
+  237  ls -al
+  238  git clone git@github.com:EliYiramSanchez/EliYiramSanchez.git
+  239  ls -al
+  240  cd EliYiramSanchez/
+  241  ls -al
+  242  vim index.html
+  243  pwd
+  244  cd EliYiramSanchez/
+  245  git status
+  246  git status
+  247  git add index.html
+  248  git commit -am "mi primer diseño de página en GitHub
+  249  cd EliYiramSanchez/
+  250  git status
+  251  git commit -am "mi primer diseño de pagina en GidHub"
+  252  git pull origin master
+  253  git push origin master
+  254  git status
+  255  git commit -am "actualizacion errores"
+  256  git status
+  257  git pull origin master
+  258  git push origin master
+  259  git status
+  260  git add .
+  261  git status
+  262  git commit -am "modificacion de estetica"
+  263  git pull origin master
+  264  git status
+  265  git push origin master
+  266  cd
+  267  cd proyecto1/
+  268  git status
+  269  GIT STATUS
+  270  git status
+  271  git commit -am "MASTER 1"
+  272  arbolito
+  273  git status
+  274  arbolito
+  275  git arbolito
+  276  git alias
+  277  git log --all --graph --decorate --oneline
+  278  git branch experimento
+  279  git branch
+  280  git status
+  281  git checkout experimento
+  282  git commit -am "exp 1"
+  283  arbolito
+  284  alias arbolito= "git log --all --graph --decorate --oneline"
+  285  alias arbolito= "git log --all --graph --decorate --oneline"
+  286  git log --all --graph --decorate --oneline
+  287  git commit -am "Exp 2"
+  288  git log --all --graph --decorate --oneline
+  289  gitk
+  290  git checkout master
+  291  git checkout experimento
+  292  gitk
+  293  git rebase master
+  294  gitk
+  295  git status
+  296  git chechout master
+  297  git checkout master
+  298  git status
+  299  git restore historia.txt
+  300  git estatus
+  301  gis status
+  302  gis status
+  303  git status
+  304  git mcheckout master
+  305  git checkout master
+  306  git commit -am "master 2"
+  307  git checkout experimento
+  308  arbolito
+  309  git log --all --graph --decorate --oneline
+  310  git rebase master
+  311  git log --all --graph --decorate --oneline
+  312  git checkout master
+  313  git log --all --graph --decorate --oneline
+  314  git rebase experimento
+  315  git log --all --graph --decorate --oneline
+  316  git status
+  317  git pull origin master
+  318  git push origin master
+  319  git branch -D experimento
+  320  git log --all --graph --decorate --oneline
+  321  gitk
+  322  git status
+  323  git stash
+  324  git stash branch readme_mejorado
+  325  git status
+  326  git commit -am "cambios en readme"
+  327  git status
+  328  arbolito
+  329  alias arbol= "git log --all --graph --decotate --oneline"
+  330  git log --all --graph --decorate --oneline
+  331  git status
+  332  git commit -am "2da modificacion"
+  333  git log --all --graph --decorate --oneline
+  334  git commit -am "3ra modificacion"
+  335  git log oneline
+  336  git log oneline
+  337  git log --oneline
+  338  git checkout master
+  339  git cherry-pick aa9a797
+  340  git status
+  341  git commit -am "readme mejorado"
+  342  git log --all --graph --decorate --oneline
+  343  git status
+  344  git commit -am "readme actualizado"
+  345  git status
+  346  git status
+  347  git commit -am "cambio al tagline"
+  348  git status
+  349  git add css/estilos.css
+  350  git status
+  351  git commit --amend
+  352  git status
+  353  git log --all --graph --decorate --oneline
+  354  git status
+  355  git relog
+  356  git --relog
+  357  git reflog
+  358  git grep -c Eli
+  359  git grep -n Eli
+  360  git grep color
+  361  git grep -n color
+  362  git grep -c color
+  363  git shortlog
+  364  git shortlog -sn --all --no-merges
+  365  git shortlog -sn --all
+  366  git config --global alias.estados "git shortlog -sn --all --no-merges"
+  367  git stados
+  368  git estados
+  369  git estados
+  370  estados
+  371  git config --global alias.estado "shortlog -sn --all --no-merges"
+  372  git estado
+  373  git arbolito
+  374  arbolito
+  375  git config --global alias.arbol "log --all --graph --decorate --oneline"
+  376  git arbol
+  377  man date
+  378  pwd
+  379  cd proyecto1
+  380  gitk
+  381  pwd
+  382  cd´proyecto1
+  383  cd proyecto1
+  384  ls -al
+  385  CD proyecto1
+  386  cd proyecto1
+  387  cat historia.txt
+  388  grep -i nacio historia.txt
+  389  grep -i nacio$ historia.txt
+  390  grep nacio$ historia.txt
+  391  grep "nacio$" historia.txt
+  392  ls -al | more
+  393  car historia.txt | wc
+  394  git status
+  395  cat historia.txt | wc -l
+  396  pwd
+  397  history
+  398  history > ultimos_comandos.txt
